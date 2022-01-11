@@ -1,0 +1,13 @@
+[package]
+name = "vixargs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Pierre Fenoll <pierrefenoll@gmail.com>"]
+description = "visual xargs executes one command per window pane"
+keywords = ["xargs", "tmux", "visualization"]
+license = "MIT"
+repository = "https://github.com/fenollp/vixargs"
+
+[dependencies]
+chrono = "0.4"
+clap = { version = "3.0.6", features = ["derive", "color"] }
